@@ -1,0 +1,13 @@
+.video {
+  height: 300px;
+  width: 300px;
+}
+.div {
+  display: flex;
+  flex-direction: column;
+  background-color: antiquewhite;
+}
+.button {
+  margin-bottom: 10px;
+  width: 300px;
+}

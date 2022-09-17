@@ -1,0 +1,9 @@
+#div_audio {
+  display: flex;
+  flex-direction: column;
+}
+#div_audio button {
+  width: 150px;
+  border-radius: 5px;
+  margin-top: 10px;
+}

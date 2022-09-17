@@ -1,0 +1,13 @@
+#div_convert {
+  flex-direction: column;
+  display: flex;
+}
+#div_convert button {
+  width: 200px;
+  margin-bottom: 10px;
+}
+#div_convert img {
+  height: 300px;
+  width: 400px;
+  background-color: antiquewhite;
+}
