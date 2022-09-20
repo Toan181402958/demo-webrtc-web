@@ -106,6 +106,72 @@ async function handleStream_from_a_video_element_to_a_peer_connection() {
     }
   );
 }
+async function handleStream_from_a_canvas_element_to_a_video_element() {
+  btnStream_from_a_canvas_element_to_a_video_element.addEventListener(
+    "click",
+    function () {
+      console.log("asdkja");
+      window.open(
+        "./Stream_capture/Stream_from_a_canvas_element_to_a_video_element/Stream_from_a_canvas_element_to_a_video_element.html"
+      );
+    }
+  );
+}
+async function handleRecord_a_stream_from_a_canvas_element() {
+  btnRecord_a_stream_from_a_canvas_element.addEventListener(
+    "click",
+    function () {
+      console.log("asdkja");
+      window.open(
+        "./Stream_capture/Record_a_stream_from_a_canvas_element/Record_a_stream_from_a_canvas_element.html"
+      );
+    }
+  );
+}
+async function handleGuiding_video_encoding_with_content_hints() {
+  btnGuiding_video_encoding_with_content_hints.addEventListener(
+    "click",
+    function () {
+      console.log("asdkja");
+      window.open(
+        "./Stream_capture/Guiding_video_encoding_with_content_hints/Guiding_video_encoding_with_content_hints.html"
+      );
+    }
+  );
+}
+async function handleBasic_peer_connection_demo_in_a_single_tab() {
+  btnBasic_peer_connection_demo_in_a_single_tab.addEventListener(
+    "click",
+    function () {
+      console.log("asdkja");
+      window.open(
+        "./RTCPeerConnection/Basic_peer_connection_demo_in_a_single_tab/Basic_peer_connection_demo_in_a_single_tab.html"
+      );
+    }
+  );
+}
+async function handleBasic_peer_connection_demo_between_two_tabs() {
+  btnBasic_peer_connection_demo_between_two_tabs.addEventListener(
+    "click",
+    function () {
+      console.log("asdkja");
+      window.open(
+        "./RTCPeerConnection/Basic_peer_connection_demo_between_two_tabs/Basic_peer_connection_demo_between_two_tabs.html"
+      );
+    }
+  );
+}
+async function handlePeer_connection_using_Perfect_Negotiation() {
+  btnPeer_connection_using_Perfect_Negotiation.addEventListener(
+    "click",
+    function () {
+      console.log("asdkja");
+      window.open(
+        "./RTCPeerConnection/Peer_connection_using_Perfect_Negotiation/Peer_connection_using_Perfect_Negotiation.html"
+      );
+    }
+  );
+}
 
 document
   .getElementById("btnbasicgetusermedia")
@@ -152,4 +218,34 @@ document
   .getElementById("btnStream_from_a_video_element_to_a_peer_connection")
   .addEventListener("click", () =>
     handleStream_from_a_video_element_to_a_peer_connection()
+  );
+document
+  .getElementById("btnStream_from_a_canvas_element_to_a_video_element")
+  .addEventListener("click", () =>
+    handleStream_from_a_canvas_element_to_a_video_element()
+  );
+document
+  .getElementById("btnRecord_a_stream_from_a_canvas_element")
+  .addEventListener("click", () =>
+    handleRecord_a_stream_from_a_canvas_element()
+  );
+document
+  .getElementById("btnGuiding_video_encoding_with_content_hints")
+  .addEventListener("click", () =>
+    handleGuiding_video_encoding_with_content_hints()
+  );
+document
+  .getElementById("btnBasic_peer_connection_demo_in_a_single_tab")
+  .addEventListener("click", () =>
+    handleBasic_peer_connection_demo_in_a_single_tab()
+  );
+document
+  .getElementById("btnBasic_peer_connection_demo_between_two_tabs")
+  .addEventListener("click", () =>
+    handleBasic_peer_connection_demo_between_two_tabs()
+  );
+document
+  .getElementById("btnPeer_connection_using_Perfect_Negotiation")
+  .addEventListener("click", () =>
+    handlePeer_connection_using_Perfect_Negotiation()
   );
